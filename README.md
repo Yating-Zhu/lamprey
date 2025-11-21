@@ -4,7 +4,7 @@
 ### Data Availability
 
 This repository utilizes data from the following article:
-[**"Title of the Paper"**](https://www.nature.com/articles/s41467-025-56153-w#data-availability)
+[**"Single-cell transcriptome atlas of lamprey exploring Natterin- induced white adipose tissue browning "**](https://www.nature.com/articles/s41467-025-56153-w#data-availability)
 
 The data used for this analysis is freely available under the following resources:
 
@@ -22,4 +22,4 @@ The custom analysis code used in this study has been deposited in the following 
 
 ### Methodology
 
-The quality control and cell clustering steps for this analysis were performed based on the code provided in the GitHub repository referenced in the paper [**"Title of the Paper"**](https://www.nature.com/articles/s41467-025-56153-w#data-availability). Please refer to the repository for further details on the methodologies used in those processes.
+The quality control and cell clustering steps for this analysis were performed based on the code provided in the GitHub repository referenced in the paper [**"Single-cell transcriptome atlas of lamprey exploring Natterin- induced white adipose tissue browning "**](https://www.nature.com/articles/s41467-025-56153-w#data-availability). Please refer to the repository for further details on the methodologies used in those processes.
