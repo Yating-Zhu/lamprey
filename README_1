@@ -1,0 +1,72 @@
+# lamprey
+
+This repository contains custom downstream analysis notebooks for visualizing and interpreting publicly available lamprey single-cell RNA-seq data.
+
+No novel software package or algorithm is introduced in this repository. The code provided here is used for downstream analysis, figure generation, and interpretation based on processed single-cell datasets from the original study.
+
+## Data Availability
+
+This repository utilizes data from the following study:
+
+**Single-cell transcriptome atlas of lamprey exploring Natterin-induced white adipose tissue browning**
+
+The data used in this analysis are publicly available from the following resources:
+
+- **CNGB Nucleotide Sequence Archive**: accession **CNP0005120**
+- **NCBI BioProject Database**: accession **PRJNA1194219**
+- **Zenodo processed data repository**: DOI **10.5281/zenodo.14338297**
+
+## Code Availability
+
+Custom analysis code used in this repository is available at:
+
+- **GitHub repository**: `https://github.com/Yating-Zhu/lamprey`
+
+## Overview
+
+This repository contains analysis notebooks used for:
+
+- UMAP visualization
+- marker gene feature plotting
+- marker heatmap generation
+- tissue-specific marker comparison
+- co-expression analysis
+
+The main notebook currently used for this analysis is:
+
+- `lamprey_VLR-like_20260403update.ipynb`
+
+## System Requirements
+
+The analysis was performed using:
+
+- **R version 4.4.1**
+- **Seurat version 5.2.1**
+- **ggplot2 version 4.0.0**
+- **harmony version 1.2.3**
+
+Additional packages imported in the notebook include:
+
+- Matrix
+- future
+- dplyr
+- data.table
+- pheatmap
+- reshape2
+- patchwork
+
+The code was tested on:
+
+- **Ubuntu 22.04 LTS (HPC cluster environment)**
+
+Required non-standard hardware:
+
+- **None**
+
+## Installation Guide
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Yating-Zhu/lamprey.git
+cd lamprey
