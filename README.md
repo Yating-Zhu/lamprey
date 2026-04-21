@@ -1,4 +1,9 @@
 # lamprey
+
+This repository contains custom downstream analysis notebooks used for visualization and interpretation of publicly available lamprey single-cell RNA-seq data.
+
+No novel software package or algorithm is introduced in this repository. The code provided here is used for downstream analysis, figure generation, and interpretation based on processed single-cell datasets from the original study.
+
 ## Data and Code Availability
 
 ### Data Availability
@@ -23,32 +28,6 @@ The custom analysis code used in this study has been deposited in the following 
 ### Methodology
 
 The quality control and cell clustering steps for this analysis were performed based on the code provided in the GitHub repository referenced in the paper [**"Single-cell transcriptome atlas of lamprey exploring Natterin-induced white adipose tissue browning "**](https://doi.org/10.1038/s41467-025-56153-w). Please refer to the repository for further details on the methodologies used in those processes.
-
-# lamprey
-
-This repository contains custom downstream analysis notebooks used for visualization and interpretation of publicly available lamprey single-cell RNA-seq data.
-
-No novel software package or algorithm is introduced in this repository. The code provided here is used for downstream analysis, figure generation, and interpretation based on processed single-cell datasets from the original study.
-
-## Data Availability
-
-This repository utilizes data from the following study:
-
-**Single-cell transcriptome atlas of lamprey exploring Natterin-induced white adipose tissue browning**
-
-The data used in this analysis are publicly available from the following resources:
-
-- **CNGB Nucleotide Sequence Archive**: accession **CNP0005120**
-- **NCBI BioProject Database**: accession **PRJNA1194219**
-- **Zenodo processed data repository**: DOI **10.5281/zenodo.14338297**
-
-The processed data used in this repository are derived from the publicly available single-cell RNA-seq datasets listed above.
-
-## Code Availability
-
-Custom analysis code used in this repository is available at:
-
-- **GitHub repository**: `https://github.com/Yating-Zhu/lamprey`
 
 ## Overview
 
