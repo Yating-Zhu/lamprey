@@ -1,12 +1,14 @@
 # lamprey
 
-This repository contains custom downstream analysis notebooks used for visualization and interpretation of publicly available lamprey single-cell RNA-seq data.
+This repository contains custom downstream analysis notebooks used for visualization and interpretation of publicly available lamprey single-cell RNA-seq data. 
 
 No novel software package or algorithm is introduced in this repository. The code provided here is used for downstream analysis, figure generation, and interpretation based on processed single-cell datasets from the original study.
 
 ## Data and Code Availability
 
 ### Data Availability
+
+In this study, we performed downstream reanalysis of the published lamprey single-cell datasets, including refinement of cell annotations, merged/integrated analysis of blood, gill and intestine datasets, UMAP visualization, marker gene analysis, and VLR gene co-expression analysis.
 
 This repository utilizes data from the following article:
 [**"Single-cell transcriptome atlas of lamprey exploring Natterin-induced white adipose tissue browning "**](https://doi.org/10.1038/s41467-025-56153-w)
@@ -47,7 +49,7 @@ The main notebook currently used for this analysis is:
 
 The analysis was performed using:
 
-- **R version 4.4.1**
+- **R version 4.3.3**
 - **Seurat version 5.2.1**
 - **ggplot2 version 4.0.0**
 - **harmony version 1.2.3**
